@@ -2302,6 +2302,10 @@ p {
   align-items: center;
 }
 
+.nav__center-nav a {
+  color: white !important;
+}
+
 .nav__left-nav {
   display: -webkit-box;
   display: -webkit-flex;
