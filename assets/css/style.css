@@ -2485,15 +2485,19 @@ p {
 }
 
 .slider__img.slider__img--2 {
-  background-image: url("https://assets.website-files.com/603fb2df5d769f79ad78c09c/604210062903b8c73e1d7117_MS-Interior-Carousel-B-Desktop.jpeg");
+  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399615/zembo/Zembo_female_team_2_c8vltp.jpg");
 }
 
 .slider__img.slider__img--3 {
-  background-image: url("https://assets.website-files.com/603fb2df5d769f79ad78c09c/604210069be8590b3f2b964e_MS-Interior-Carousel-C-Desktop.jpeg");
+  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399614/zembo/Zembo_IT_team_2_ccfc2k.jpg");
 }
 
 .slider__img.slider__img--4 {
-  background-image: url("https://assets.website-files.com/603fb2df5d769f79ad78c09c/6042100773860ce9f838fc82_MS-Interior-Carousel-D-Desktop.jpeg");
+  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399615/zembo/Agaba_and_food_team_ab6x8n.jpg");
+}
+
+.slider__img.slider__img--5 {
+  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689400198/zembo/Charging-station_vie97c.jpg");
 }
 
 .slider__text {
@@ -4212,7 +4216,6 @@ p {
     height: 70px;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .nav__burger-line {
