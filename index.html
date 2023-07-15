@@ -21,7 +21,7 @@
       })(window, document);
     </script>
     <link
-      href="./assets/images/zembo.png"
+      href="./assets/images/cropped-Logo-Z-square-32x32.png"
       rel="shortcut icon"
       type="image/x-icon"
     />
@@ -35,7 +35,15 @@
       <div class="hero-flex">
         <div style="opacity: 0; display: none" class="hero-dark-screen"></div>
         <div class="hero-flex__item hero-flex__item--nav">
-          <div class="nav">
+          <div
+            class="nav"
+            style="
+              background-color: black;
+              position: fixed;
+              width: 100%;
+              text-align: center;
+            "
+          >
             <a href="#" target="_blank" class="nav__logo w-inline-block">
               <img
                 src="./assets/images/zembo.png"
@@ -44,40 +52,22 @@
                 height="30"
               />
             </a>
-            <div class="nav__center-nav">
-              <a href="#" target="_blank" class="nav__link">Home</a>
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="nav__link"
-                >About us</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="nav__link"
-                >Impact</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="nav__link"
-                >Contact</a
-              >
-            </div>
             <div class="nav__left-nav">
-              <!-- <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="nav__link nav__link--hide-mobile"
-                >shop</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="nav__link nav__link--hide-mobile"
-                >tesla account</a
-              > -->
+              <div class="main-links">
+                <a href="#" target="_blank" class="nav__link">Home</a>
+                <a
+                  href="https://www.eikonlabs.com/"
+                  target="_blank"
+                  class="nav__link"
+                  >About us</a
+                >
+                <a
+                  href="https://www.eikonlabs.com/"
+                  target="_blank"
+                  class="nav__link"
+                  >Contact</a
+                >
+              </div>
               <div
                 data-w-id="ed7a1174-58b1-b74f-fdbb-e80c4f57a87a"
                 class="nav__burger"
@@ -100,61 +90,13 @@
               "
               class="side-nav"
             >
-              <!-- <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >model s</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >model 3</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >model x</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >model y</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >Solar roof</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >Solar panes</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >shop</a
-              >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="side-nav__link side-nav__link-mobile"
-                >tesla account</a
-              > -->
               <a href="#" class="side-nav__link">Home</a>
               <a href="#" class="side-nav__link">About us</a>
-              <a href="#" class="side-nav__link">Impact</a>
               <a href="#" class="side-nav__link">Contact</a>
             </div>
           </div>
         </div>
+
         <div class="hero-flex__item hero-flex__item-mid">
           <h1
             data-w-id="4dbe4f17-96b6-895c-3148-14cc6da545ea"
@@ -168,6 +110,7 @@
                 rotateY(0) rotateZ(0) skew(0, 0);
               transform: translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0)
                 rotateY(0) rotateZ(0) skew(0, 0);
+              font-size: 72px;
             "
             class="hero-grid__heading"
           >
@@ -185,13 +128,14 @@
                 rotateY(0) rotateZ(0) skew(0, 0);
               transform: translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0)
                 rotateY(0) rotateZ(0) skew(0, 0);
+              font-size: 32px;
             "
             class="hero-grid__subheading"
           >
             Electric
           </div>
         </div>
-        <div class="hero-flex__item hero-flex__item--bot">
+        <!-- <div class="hero-flex__item hero-flex__item--bot">
           <div class="w-layout-grid data-grid">
             <div class="data-grid__item">
               <div class="data__title">390mi</div>
@@ -209,19 +153,8 @@
               <div class="data__title">1,020hp</div>
               <div class="data__sub-text">Peak Power</div>
             </div>
-            <!-- <div
-              id="w-node-_0353aae0-35b5-7538-96c9-ca9a9e528145-7f78c09d"
-              class="data-grid__button-wrapper"
-            >
-              <a
-                href="https://www.eikonlabs.com/"
-                target="_blank"
-                class="button"
-                >order now</a
-              >
-            </div> -->
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="interior">
@@ -1481,7 +1414,7 @@
       <a href="#" class="footer__link">Privacy &amp;Legal</a>
       <a href="#" class="footer__link footer__link--mobile-hide">Home</a>
       <a href="#" class="footer__link footer__link--mobile-hide">About us</a>
-      <a href="#" class="footer__link footer__link--mobile-hide">Impact</a>
+      <!-- <a href="#" class="footer__link footer__link--mobile-hide">Impact</a> -->
       <a href="#" class="footer__link">Contact</a>
     </div>
     <div
@@ -1504,6 +1437,9 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/main.js" type="text/javascript"></script>
+    <script
+      src="https://assets.website-files.com/603fb2df5d769f79ad78c09c/js/webflow.866b83830.js"
+      type="text/javascript"
+    ></script>
   </body>
 </html>

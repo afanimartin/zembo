@@ -2052,8 +2052,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  /* padding-right: 1.5rem;
+  padding-left: 1.5rem; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2304,6 +2304,7 @@ p {
 
 .nav__center-nav a {
   color: white !important;
+  font-size: 18px;
 }
 
 .nav__left-nav {
@@ -2319,6 +2320,11 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.nav__left-nav a {
+  color: white !important;
+  font-size: 16px;
 }
 
 .nav__link {
@@ -2364,7 +2370,7 @@ p {
 .nav__burger-line {
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .side-nav {
@@ -2429,7 +2435,7 @@ p {
 .interior__img {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../images/battery-lab.jpg");
+  background-image: url("../images/zembo-storm.png");
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4201,6 +4207,25 @@ p {
   font-display: swap;
 }
 
-.zembo-map {
-  /* width: 100%; */
+@media screen and (min-width: 1024px) {
+  .nav {
+    height: 70px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .nav__burger-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav {
+    display: flex !important;
+    align-items: center;
+  }
+  .nav__left-nav > .main-links {
+    display: none;
+  }
 }
