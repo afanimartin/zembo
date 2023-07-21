@@ -2014,12 +2014,25 @@ p {
 }
 
 .hero {
+  background-image: url("../images/zembo-hero.jpg");
+}
+
+.hero,
+.hero-about,
+.hero-contact {
   position: relative;
   min-height: 100vh;
-  background-image: url("../images/zembo-hero.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero-about {
+  background-image: url("../images/battery-lab.jpg");
+}
+
+.hero-contact {
+  background-image: url("../images/bike-test.jpg");
 }
 
 .hero-grid__heading {
@@ -2047,8 +2060,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  /* padding-right: 1.5rem;
-  padding-left: 1.5rem; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2617,6 +2628,11 @@ p {
   color: #fff;
 }
 
+.about-grid {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .showcase-grid {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -2699,7 +2715,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
