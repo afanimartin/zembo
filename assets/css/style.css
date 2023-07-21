@@ -1,8 +1,3 @@
-/* Generated on: Mon Mar 08 2021 17:27:18 GMT+0000 (Coordinated Universal Time) */
-/* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -2432,13 +2427,24 @@ p {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.interior__img:hover {
+  opacity: 1;
+  filter: none;
+  transform: none;
+  box-shadow: 0 0 50px #fff;
+}
+
 .interior__img {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../images/zembo-storm.png");
-  background-position: 50% 0%;
-  background-size: cover;
+  filter: grayscale();
+  background-image: url(https://uploads-ssl.webflow.com/64903469e993a59c07f92d81/649035490362c1a424b72686_Zembo-Storm-bike.jpg);
+  background-position: 50% 0;
   background-repeat: no-repeat;
+  background-size: cover;
+  transition: box-shadow 0.2s;
+  transform: scale(0.95);
+  box-shadow: 0 0 6px #fff;
 }
 
 .interior__headline {
@@ -2747,13 +2753,14 @@ p {
   padding-left: 20px;
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
 
 .ludicrous-grid-2__item {
+  margin: 20px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
