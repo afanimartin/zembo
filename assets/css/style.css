@@ -2628,7 +2628,8 @@ p {
   color: #fff;
 }
 
-.about-grid, .contact-zembo {
+.about-grid,
+.contact-zembo {
   width: 60%;
   margin: 0 auto;
 }
@@ -4262,5 +4263,45 @@ p {
   .about-grid {
     width: 90%;
     margin: 0 auto;
+  }
+}
+
+/* CUSTOM CSS */
+.container {
+  overflow: hidden;
+  .slider-new {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+div.container.rounded {
+  padding: 0;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
