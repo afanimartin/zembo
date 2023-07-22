@@ -343,8 +343,8 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 .w-webflow-badge {
   position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
+  display: none !important;
+  visibility: hidden !important;
   z-index: 2147483647 !important;
   top: auto !important;
   right: 12px !important;
@@ -2628,9 +2628,13 @@ p {
   color: #fff;
 }
 
-.about-grid {
+.about-grid, .contact-zembo {
   width: 60%;
   margin: 0 auto;
+}
+
+.contact-zembo {
+  text-align: center;
 }
 
 .showcase-grid {
@@ -4253,5 +4257,10 @@ p {
   }
   .nav__left-nav > .main-links {
     display: none;
+  }
+
+  .about-grid {
+    width: 90%;
+    margin: 0 auto;
   }
 }
