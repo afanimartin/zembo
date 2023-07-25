@@ -2379,7 +2379,7 @@ p {
   background-color: #fff;
 }
 
-.side-nav {
+/*.side-nav {
   position: fixed;
   left: auto;
   top: 0%;
@@ -2426,7 +2426,7 @@ p {
 
 .side-nav__link.side-nav__link-mobile {
   display: none;
-}
+}*/
 
 .hero-dark-screen {
   position: absolute;
