@@ -2743,7 +2743,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  min-height: 70vh;
+  min-height: 100vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -2755,7 +2755,7 @@ p {
 }
 
 .ludicrous__img.ludicrous__img-2 {
-  background-image: url("../images/Zembo\ Street\ swappers\ on\ bike\ \(3\).jpg");
+  background-image: url("../images/2022.06\ Masaka\ Launch\ \(19\).jpg");
 }
 
 .ludicrous-grid {
