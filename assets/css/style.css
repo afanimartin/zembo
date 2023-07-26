@@ -2456,6 +2456,7 @@ p {
   filter: none;
   transform: none;
   box-shadow: 0 0 50px #fff;
+  background-image: url(../images/hover.png);
 }
 
 .interior__img {
@@ -4388,5 +4389,9 @@ i.bi {
         grid-gap: 2%;
       }
     }
+  }
+
+  .interior__img {
+    background-image: url(../images/storm-bike-mobile.jpg);
   }
 }
