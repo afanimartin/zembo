@@ -4381,6 +4381,7 @@ i.bi {
   }
 
   .container {
+    background-color: #f4f3f6;
     .slider-new {
       animation: none;
       .logos {
@@ -4389,9 +4390,5 @@ i.bi {
         grid-gap: 2%;
       }
     }
-  }
-
-  .interior__img {
-    background-image: url(../images/storm-bike-mobile.jpg);
   }
 }
