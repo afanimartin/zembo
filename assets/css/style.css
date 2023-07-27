@@ -2008,7 +2008,7 @@ p {
 }
 
 .container.container--840 {
-  max-width: 840px;
+  max-width: 960px;
 }
 
 .container.container--840.contaiener--840-powertrain {
@@ -4348,7 +4348,7 @@ i.bi {
   display: none;
 }
 
-.partner-logos {
+.h-100 {
   background-color: #ebebec;
 }
 
