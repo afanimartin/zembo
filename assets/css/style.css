@@ -2458,7 +2458,8 @@ p {
   box-shadow: 0 0 50px #fff;
   background-image: url(../images/hover.png);
   background-size: cover;
-  height: 500px;
+  background-position: 50% 0;
+  height: 300px;
   width: 100%;
 }
 
@@ -4343,7 +4344,28 @@ i.bi {
   margin: 0 20px;
 }
 
-@media screen and (max-width: 425px) {
+.interior__img__mobile {
+  display: none;
+}
+
+.partner-logos {
+  background-color: #ebebec;
+}
+
+.mobile__img {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .go_img,
+  .ludicrous__img {
+    display: none;
+  }
+
+  .mobile__img {
+    display: block;
+  }
+
   .nav__burger {
     display: flex;
   }
@@ -4392,5 +4414,13 @@ i.bi {
         grid-gap: 2%;
       }
     }
+  }
+
+  .interior__img__mobile {
+    display: block;
+  }
+
+  .interior__img {
+    display: none;
   }
 }
