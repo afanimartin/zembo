@@ -2457,12 +2457,14 @@ p {
   transform: none;
   box-shadow: 0 0 50px #fff;
   background-image: url(../images/hover.png);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
 }
 
 .interior__img {
   width: 100%;
   min-height: 100vh;
-  filter: grayscale();
   background-image: url(https://uploads-ssl.webflow.com/64903469e993a59c07f92d81/649035490362c1a424b72686_Zembo-Storm-bike.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -2470,6 +2472,7 @@ p {
   transition: box-shadow 0.2s;
   transform: scale(0.95);
   box-shadow: 0 0 6px #fff;
+  vertical-align: middle;
 }
 
 .interior__headline {
