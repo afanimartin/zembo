@@ -2036,7 +2036,6 @@ p {
 
 .hero-about {
   background-image: url("../images/battery-lab.jpg");
-  
 }
 
 .hero-contact {
@@ -2044,7 +2043,7 @@ p {
 }
 
 .hero-grid__heading {
-  margin-bottom: 0px;
+  margin: 0px;
   line-height: 48px;
   text-align: center;
   color: white !important;
@@ -2651,7 +2650,6 @@ p {
 .contact-zembo {
   width: 60%;
   margin: 0 auto;
-
 }
 .contact-zembo {
   text-align: center;
@@ -2667,9 +2665,8 @@ p {
   margin: 0 auto;
   background-color: #000;
   color: #fff;
-  height:200px;
+  height: 200px;
 }
-
 
 .contacts-zembo {
   text-align: center;

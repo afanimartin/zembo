@@ -47,73 +47,17 @@
     ></script>
     <script>
       $(function () {
+        $("#navbar").load("navbar.html");
         $("#footer").load("footer.html");
         $("#partners").load("partners.html");
       });
     </script>
   </head>
   <body>
+    <div id="navbar"></div>
     <section class="hero">
       <div class="hero-flex">
         <div style="opacity: 0; display: none" class="hero-dark-screen"></div>
-        <div class="hero-flex__item hero-flex__item--nav">
-          <div
-            class="nav"
-            style="
-              background-color: black;
-              position: fixed;
-              z-index: 1;
-              width: 100%;
-              text-align: center;
-            "
-          >
-            <a href="/" class="nav__logo w-inline-block">
-              <img
-                src="./assets/images/zembo.png"
-                loading="lazy"
-                width="100"
-                height="30"
-              />
-            </a>
-
-            <div class="nav__left-nav">
-              <div class="main-links">
-                <a href="/" class="nav__link">Home</a>
-                <a href="./about.html" class="nav__link">About us</a>
-                <a href="./contact.html" class="nav__link">Contact</a>
-                <a href="./teams.html" class="nav__link">Our Team</a>
-              </div>
-              <div
-                data-w-id="ed7a1174-58b1-b74f-fdbb-e80c4f57a87a"
-                class="nav__burger"
-              >
-                <div class="nav__burger-line nav__burger-line--top"></div>
-                <div class="nav__burger-line nav__burger-line--mid"></div>
-                <div class="nav__burger-line nav__burger-line--bot"></div>
-              </div>
-            </div>
-
-            <div
-              style="
-                -webkit-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                -moz-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                -ms-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
-                  rotateY(0) rotateZ(0) skew(0, 0);
-              "
-              class="side-nav"
-            >
-              <a href="/" class="side-nav__link">Home</a>
-              <a href="./about.html" class="side-nav__link">About us</a>
-              <a href="./contact.html" class="side-nav__link">Contact</a>
-              <a href="./teams.html" class="side-nav__link">Our Team</a>
-            </div>
-          </div>
-        </div>
-
         <div class="hero-flex__item hero-flex__item-mid">
           <h1
             data-w-id="4dbe4f17-96b6-895c-3148-14cc6da545ea"
@@ -229,7 +173,10 @@
               class="showcase-grid__item showcase-grid__text showcase-grid__text--left"
             >
               <h4>Comfortable, Sturdy, Elegant</h4>
-              <p class="showcase-grid__text">Enjoy a comfortable ride on the Zembo Storm. Built to navigate the road seamlessly</p>
+              <p class="showcase-grid__text">
+                Enjoy a comfortable ride on the Zembo Storm. Built to navigate
+                the road seamlessly
+              </p>
             </div>
             <div
               id="w-node-_852a8e55-ec10-3478-8b3c-cd90e7316660-7f78c09d"
@@ -565,7 +512,6 @@
         frameborder="0"
         style="position: relative; border: none; margin-top: -60px"
       ></iframe>
-    
     </div>
     <div class="w-layout-grid showcase-grid contacts-zembo">
       <h2>Follow us</h2>
