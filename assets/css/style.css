@@ -2043,7 +2043,7 @@ p {
 }
 
 .hero-grid__heading {
-  margin: 0px;
+  margin-top: 200px;
   line-height: 48px;
   text-align: center;
   color: white !important;
