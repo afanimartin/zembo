@@ -4340,11 +4340,12 @@ div.container.rounded {
 
 .team-portrait .row-1,
 .team-portrait .row-2,
-.team-portrait .row-3 {
+.team-portrait .row-3,
+.team-portrait .row-4 {
   margin-bottom: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-gap: 5%;
+  grid-template-columns: repeat(4, 23.5%);
+  grid-gap: 2%;
 }
 
 ul {
@@ -4416,7 +4417,9 @@ i.bi {
     margin-bottom: 200px;
   }
   .team-portrait .row-2,
-  .team-portrait .row-1 {
+  .team-portrait .row-1,
+  .team-portrait .row-3,
+  .team-portrait .row-4 {
     display: grid;
     grid-template-columns: 100%;
   }
