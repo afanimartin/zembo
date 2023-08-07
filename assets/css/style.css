@@ -1938,6 +1938,7 @@ textarea.w-select {
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
   grid-column-gap: 16px;
+  width: 100%;
 }
 
 body {
@@ -3942,7 +3943,13 @@ p {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+
   }
+  .contacts-zembo {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;}
 
   .footer__link {
     margin-bottom: 1rem;
@@ -4436,8 +4443,8 @@ i.bi {
     grid-template-columns: 100%;
   }
 
-  .team-portrait .row-2 {
-    margin-bottom: 150px;
+  .team-portrait .row-4 {
+    margin-bottom: 250px;
   }
 
   .team-portrait img {
