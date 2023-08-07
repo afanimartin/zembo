@@ -4296,17 +4296,29 @@ p {
 /* CUSTOM CSS */
 .container {
   overflow: hidden;
-  .slider-new {
-    animation: slidein 30s linear infinite;
-    white-space: nowrap;
-    .logos {
-      width: 100%;
-      display: inline-block;
-      margin: 0px 0;
-      .fab {
-        width: calc(100% / 5);
-        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-      }
+}
+
+.slider-new {
+  /* Add vendor prefixes for animation */
+  animation: slidein 30s linear infinite;
+  -webkit-animation: slidein 30s linear infinite; /* Safari/Chrome */
+  -moz-animation: slidein 30s linear infinite; /* Firefox */
+
+  white-space: nowrap;
+
+  .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+
+    .fab {
+      width: calc(100% / 5);
+      /* Add vendor prefixes for animation */
+      animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      -webkit-animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+        forwards; /* Safari/Chrome */
+      -moz-animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+        forwards; /* Firefox */
     }
   }
 }
