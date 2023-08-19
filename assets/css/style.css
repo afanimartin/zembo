@@ -3943,13 +3943,13 @@ p {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-
   }
   .contacts-zembo {
     width: 100%;
     margin: 0 auto;
     background-color: #000;
-    color: #fff;}
+    color: #fff;
+  }
 
   .footer__link {
     margin-bottom: 1rem;
@@ -4262,6 +4262,11 @@ p {
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
+  #zoom img,
+  #lens {
+    display: none;
+  }
 }
 @font-face {
   font-family: "Gotham Medium";
@@ -4469,5 +4474,40 @@ i.bi {
 
   .interior__img {
     display: none;
+  }
+}
+
+.zoom-container {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(244, 254, 255);
+}
+
+#lens {
+  position: absolute;
+  border: 2px solid grey;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: none;
+  box-shadow: inset 0 0 10px 2px grey;
+  filter: drop-shadow(0 0 2px grey);
+}
+#zoom img {
+  width: 850px;
+  height: 500px;
+}
+#lens > * {
+  cursor: none;
+}
+
+@media (max-height: 600px) {
+  #zoom img,
+  .container {
+    width: 520px;
+    height: 330px;
   }
 }
