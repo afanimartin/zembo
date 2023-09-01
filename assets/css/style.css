@@ -2021,8 +2021,21 @@ p {
   padding-bottom: 0rem;
 }
 
-.hero {
+/* .hero {
   background-image: url("../images/zembo-hero.jpg");
+} */
+
+/* video background */
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .hero,
@@ -2777,6 +2790,8 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #000;
+  color: #fff;
 }
 
 .ludicrous__img {
@@ -2851,7 +2866,8 @@ p {
 
 .powertrain {
   min-height: 100vh;
-  background-color: rgba(57, 60, 65, 0.1);
+  background-color: #000;
+  color: #fff;
 }
 
 .tabs-imgs-wrapper {
@@ -2994,6 +3010,8 @@ p {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  background-color: #000;
+  color: #fff;
 }
 
 .freedom {
@@ -3478,6 +3496,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #000;
 }
 
 .footer__link {
@@ -3964,6 +3983,16 @@ p {
   .container.container--1260.container--flex-mid {
     padding-right: 0rem;
     padding-left: 0rem;
+  }
+
+  #background-video {
+    display: none;
+  }
+
+  .hero {
+    background-image: url(../images/zembo-hero.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .container.container--840.contaiener--840-powertrain {
@@ -4478,13 +4507,12 @@ i.bi {
 }
 
 .zoom-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  background: #fff;
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid rgb(244, 254, 255);
 }
 
 #lens {
