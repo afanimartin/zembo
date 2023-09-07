@@ -2661,7 +2661,7 @@ p {
 }
 
 .showcase {
-  background-color: #000;
+  
   color: #fff;
 }
 
@@ -4065,6 +4065,9 @@ p {
     display: block;
     margin-top: 400px;
     padding-bottom: 0px;
+  }
+  .showcase{
+    display: none;
   }
 
   .showcase-grid {
