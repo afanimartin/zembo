@@ -55,15 +55,36 @@
     </script>
   </head>
   <body>
-    <div id="navbar"></div>
+    <header style="position: fixed;
+top: 0; left: 0; width: 100%;height: 50px;
+display:flex; justify-content: space-between;
+align-items: center; transition: 0.6s;padding:40px 100px;
+font-size: larger; font-weight: bolder; z-index: 100000;"
+> 
+    <a href="./index.html"class="">
+      <img
+      src="./assets/images/zembo.png"
+      loading="lazy"
+      width="100"
+      height="30"
+    />
+    </a>
+    <ul style="display:flex; position: relative;
+    justify-content: center;align-items: center;">
+        <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;"href="./index.html">Home</a></li>
+        <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white; font-weight: 500px; transition: 0.6s;" href="./about.html">About Us</a></li>
+        <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;" href="./teams.html">Our Team</a></li>
+        <li style="position: relative; list-style: none;"><a  style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;"href="./contact.html">Contact Us</a></li>
+    </ul>
+</header>
     <!-- HERO START -->
-    <section class="hero">
+    <section class="hero" style="margin-bottom: -150px;">
       <video
         id="background-video"
         autoplay
         loop
         muted
-        style="width: 100%; height: 100vh;"
+        style="width: 100%; height: 100vh; "
       >
         <source
           src="https://res.cloudinary.com/dj8ezastp/video/upload/v1694161000/Zembo_90_Sec_Clip_V3_Final_08BTR_1080p_ENG-subs_1_hnxow7.mp4"
@@ -683,6 +704,12 @@
       }
 
       magnify("zoom", 4);
+    </script>
+    <script>
+      window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0);
+      })
     </script>
   </body>
 </html>

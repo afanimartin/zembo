@@ -2303,7 +2303,10 @@ p {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
+header.sticky{
+  background: #000;
+  
+}
 .nav__logo {
   display: -webkit-box;
   display: -webkit-flex;
