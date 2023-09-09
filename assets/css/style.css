@@ -2047,6 +2047,7 @@ p {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .hero-about {
@@ -2059,7 +2060,9 @@ p {
 }
 
 .hero-team {
-  background-image: url(../images/GIZ\ Field\ visit.jpg);
+  background-image: url(https://res.cloudinary.com/dj8ezastp/image/upload/v1694264179/teams_e3fuea.jpg);
+  filter: brightness(50%);
+
 }
 
 .hero-grid__heading {
@@ -2096,6 +2099,7 @@ p {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  
 }
 
 .hero-flex__item {
@@ -2306,6 +2310,7 @@ p {
 }
 header.sticky{
   background: #000;
+  color: white;
   
 }
 .nav__logo {
@@ -2538,7 +2543,7 @@ header.sticky{
 }
 
 .slider__img.slider__img--1 {
-  background-image: url("../images/bike-test.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694273303/zembin_hoe3k1.jpg");
 }
 
 .slider__img.slider__img--2 {
