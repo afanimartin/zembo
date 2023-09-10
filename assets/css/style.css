@@ -2056,11 +2056,11 @@ p {
 }
 
 .hero-contact {
-  background-image: url("../images/Mobility\ Parade.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694333029/contacts_yayrv0.jpg");
 }
 
 .hero-team {
-  background-image: url(https://res.cloudinary.com/dj8ezastp/image/upload/v1694264179/teams_e3fuea.jpg);
+  background-image: url(https://res.cloudinary.com/dj8ezastp/image/upload/v1694332235/team_itgcqm.jpg);
   filter: brightness(50%);
 
 }
@@ -2547,20 +2547,24 @@ header.sticky{
 }
 
 .slider__img.slider__img--2 {
-  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399615/zembo/Zembo_female_team_2_c8vltp.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694330943/sales_cv6rdz.jpg");
 }
 
 .slider__img.slider__img--3 {
-  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399614/zembo/Zembo_IT_team_2_ccfc2k.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694331069/IT_xihooh.jpg");
 }
 
 .slider__img.slider__img--4 {
-  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689399615/zembo/Agaba_and_food_team_ab6x8n.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694331879/ops_sywqo8.jpg");
 }
 
 .slider__img.slider__img--5 {
-  background-image: url("https://res.cloudinary.com/dmyhendcr/image/upload/v1689400198/zembo/Charging-station_vie97c.jpg");
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1694332235/team_itgcqm.jpg");
 }
+.slider__img.slider__img--6 {
+  background-image: url("https://res.cloudinary.com/dj8ezastp/image/upload/v1691066235/bike-test_bub3w2.jpg");
+}
+
 
 .slider__text {
   display: -webkit-box;
