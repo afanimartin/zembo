@@ -59,13 +59,38 @@
           height="30"
         />
         </a>
-        <ul style="display:flex; position: relative;
-        justify-content: center;align-items: center;">
-               <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;"href="./index.html">HOME</a></li>
-               <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white; font-weight: 500px; transition: 0.6s;" href="./about.html">ABOUT US</a></li>
-               <li style="position: relative; list-style: none;"><a style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;" href="./teams.html">OUR TEAM</a></li>
-               <li style="position: relative; list-style: none;"><a  style=" position: relative; margin: 0 15px; text-decoration: none; color: white;font-weight: 500px; transition: 0.6s;"href="./contact.html">CONTACT US</a></li> </ul>
-    </header>
+        <div class="nav__left-nav">
+          <div class="main-links">
+            <a href="/" class="nav__link">Home</a>
+            <a href="./about.html" class="nav__link">About us</a>
+            <a href="./teams.html" class="nav__link">Our Team</a>
+            <a href="./contact.html" class="nav__link">Contact</a>
+          </div>
+          <div data-w-id="ed7a1174-58b1-b74f-fdbb-e80c4f57a87a" class="nav__burger">
+            <div class="nav__burger-line nav__burger-line--top"></div>
+            <div class="nav__burger-line nav__burger-line--mid"></div>
+            <div class="nav__burger-line nav__burger-line--bot"></div>
+          </div>
+        </div> 
+        <div
+        style="
+          -webkit-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -moz-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -ms-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+            rotateZ(0) skew(0, 0);
+        "
+        class="side-nav"
+      >
+        <a href="/" class="side-nav__link">Home</a>
+        <a href="./about.html" class="side-nav__link">About us</a>
+        <a href="./teams.html" class="side-nav__link">Our Team</a>
+        <a href="./contact.html" class="side-nav__link">Contact</a>
+      </div>
+      </header>
     <section class="hero-about" style="
     background-size: cover; background-repeat:no-repeat;
     background-image: url(https://res.cloudinary.com/dj8ezastp/image/upload//c_thumb,w_3600,h_2200,g_auto/v1694237517/Zembo_Street_swappers_on_bike_6_us6m8m.jpg);
@@ -112,7 +137,7 @@
         </div>
       </div>
     </section>
-    <div class= "ludicrous"style="display: inline-block; width: 100%; position: relative;margin-bottom:-5px">
+    <div class= "ludicrous"style="display: inline-block; width: 100%; position: relative;margin-bottom:-5px ">
       <div style=" width: 100%;
       height: 100vh;
       background: url(https://res.cloudinary.com/dj8ezastp/image/upload/v1694246396/zembo_m8o2ps.jpg);
@@ -133,7 +158,7 @@
           -ms-transform: translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0)
             rotateY(0) rotateZ(0) skew(0, 0);
           transform: translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0); 
+            rotateY(0) rotateZ(0) skew(0, 0); width: fit-content;
         "
         class="paragraph__animated"
       >
@@ -168,7 +193,7 @@
     </h3>
       
     </div> 
-     <div class="zoom-container">
+     <div class="interior">
         <div id="ludicrous">
           <img
             src="https://res.cloudinary.com/dj8ezastp/image/upload/v1694247987/ffff_sfm3ft.jpg"
