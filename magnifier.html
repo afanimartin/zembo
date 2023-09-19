@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styling for the image container and magnifier glass */
+        .image-container {
+            position: relative;
+        }
+
+        .image {
+            width: 300px; /* Adjust the width of your image */
+            max-width: 100%;
+        }
+
+        .magnifier {
+            position: absolute;
+            border: 1px solid #ccc;
+            cursor: none;
+            display: none;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="your-image.jpg" alt="Your Image" class="image" id="myImage">
+        <div class="magnifier" id="magnifier"></div>
+    </div>
+
+    <script>
+        // Get references to the image and magnifier elements
+        var image = document.getElementById("myImage");
+        var magnifier = document.getElementById("magnifier");
+
+        // Calculate the ratio of the magnifier to the image
+        var ratio = 3; // You can adjust this value to change the magnification level
+
+        // When the user hovers over the image
+        image.addEventListener("mousemove", function(event) {
+            // Calculate the position of the magnifier
+            var x = event.clientX - image.getBoundingClientRect().left;
+            var y = event.clientY - image.getBoundingClientRect().top;
+
+            // Set the position of the magnifier
+            var magnifierX = x - (magnifier.offsetWidth / 2);
+            var magnifierY = y - (magnifier.offsetHeight / 2);
+
+            // Ensure the magnifier stays within the image boundaries
+            if (magnifierX < 0) {
+                magnifierX = 0;
+            }
+            if (magnifierY < 0) {
+                magnifierY = 0;
+            }
+            if (magnifierX + magnifier.offsetWidth > image.offsetWidth) {
+                magnifierX = image.offsetWidth - magnifier.offsetWidth;
+            }
+            if (magnifierY + magnifier.offsetHeight > image.offsetHeight) {
+                magnifierY = image.offsetHeight - magnifier.offsetHeight;
+            }
+
+            // Set the magnifier position
+            magnifier.style.left = magnifierX + "px";
+            magnifier.style.top = magnifierY + "px";
+
+            // Calculate the background position of the image to achieve zoom
+            var bgX = -magnifierX * ratio;
+            var bgY = -magnifierY * ratio;
+            image.style.backgroundPosition = bgX + "px " + bgY + "px";
+
+            // Show the magnifier
+            magnifier.style.display = "block";
+        });
+
+        // Hide the magnifier when the mouse leaves the image
+        image.addEventListener("mouseout", function() {
+            magnifier.style.display = "none";
+        });
+    </script>
+</body>
+</html>
