@@ -4006,7 +4006,38 @@ header.sticky{
     padding-right: 0rem;
     padding-left: 0rem;
   }
-
+  .w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    width: 100%;
+  }
+  .headere{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 13%;
+    margin-right: 5%;
+  }
+  .zoom-container {
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    display: block;
+    
+  }
+  
+  .specs__txt {
+  
+    display: block;
+    width: 100%;
+  
+  }
   #background-video {
     display: none;
   }
