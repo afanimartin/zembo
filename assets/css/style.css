@@ -2393,8 +2393,12 @@ header.sticky{
   cursor: pointer;
 }
 
+
 @media screen and (min-width: 769px) {
   .nav__burger {
+    display: none;
+  }
+  .appeared{
     display: none;
   }
 }
@@ -2677,6 +2681,8 @@ header.sticky{
   margin: 0 auto;
   background-color: #000;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
 }
 .contactz-zembo {
   width: 100%;
@@ -3656,11 +3662,15 @@ header.sticky{
   .container.container--840.contaiener--840-powertrain {
     width: 80%;
   }
+  .appeared{
+    display: none;
+  }
 
   .hero {
     min-height: 80vh;
     background-position: 35% 50%;
   }
+
 
   .hero-flex {
     min-height: 80vh;
@@ -3804,6 +3814,11 @@ header.sticky{
     width: 100%;
     min-height: auto;
   }
+  .zembo-map{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
   .tab-vids__wrapper {
     min-height: 400px;
@@ -3920,6 +3935,7 @@ header.sticky{
   }
 }
 
+
 @media screen and (max-width: 767px) {
   .data-grid {
     grid-column-gap: 1.5rem;
@@ -4018,6 +4034,14 @@ header.sticky{
     grid-column-gap: 10px;
     width: 100%;
   }
+ 
+  .hiding{
+    display:none
+  }
+  .appeared{
+    display: inline-block;
+  }
+ 
   .headere{
     width: 100%;
     font-size: 20px;
@@ -4028,7 +4052,8 @@ header.sticky{
     width: 100%;
     margin: 0 auto;
     background: #000;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     
   }
   
@@ -4123,6 +4148,7 @@ header.sticky{
 
   .showcase-grid {
     width: 100%;
+    flex-wrap: wrap;
   }
 
   .ludicrous-grid {
@@ -4302,6 +4328,9 @@ header.sticky{
     -ms-flex-order: -9999;
     order: -9999;
   }
+  .appeared{
+    display: none;
+  }
 
   #w-node-_852a8e55-ec10-3478-8b3c-cd90e7316660-7f78c09d {
     -webkit-box-ordinal-group: -9998;
@@ -4401,6 +4430,9 @@ header.sticky{
   .nav {
     height: 70px;
   }
+  .appeared{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4484,6 +4516,8 @@ ul {
   display: flex;
   justify-content: center;
   padding: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 #socials-list a {
