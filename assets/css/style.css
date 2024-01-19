@@ -4014,7 +4014,14 @@ header.sticky{
   .footer__link.footer__link--mobile-hide {
     display: none;
   }
+
+  .container.container--1260.container--flex-mid {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
 }
+
+
 
 @media screen and (max-width: 479px) {
   
