@@ -3492,17 +3492,6 @@ header.sticky{
   background-color: #393c41;
 }
 
-@media screen and (max-width: 768px) {
-  .w-layout-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .specs__grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
 .specs__tabs {
   margin-top: 1rem;
 }
