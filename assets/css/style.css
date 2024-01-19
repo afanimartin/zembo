@@ -4681,9 +4681,7 @@ i.bi {
   /* Add rules specific to medium devices */
   header.sticky{
     background-color: rgb(32, 31, 31);
-    .nav__burger{
-      color: white;
-    }
+    
   }
   .go_img,
   .ludicrous__img {
@@ -4802,8 +4800,7 @@ i.bi {
   /* Existing rules for smaller screens */
   header.sticky{
     background-color: rgb(32, 31, 31);
-    .nav__burger{
-      color: white;
+    
     }
   }
   .go_img,
@@ -4911,9 +4908,7 @@ i.bi {
   /* Existing rules for even smaller screens */
   header.sticky{
     background-color: rgb(32, 31, 31);
-    .nav__burger{
-      color: white;
-    }
+    
   }
   .go_img,
   .ludicrous__img {
