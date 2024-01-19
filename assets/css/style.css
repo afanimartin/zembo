@@ -3492,6 +3492,17 @@ header.sticky{
   background-color: #393c41;
 }
 
+@media screen and (max-width: 768px) {
+  .w-layout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specs__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 .specs__tabs {
   margin-top: 1rem;
 }
@@ -4014,7 +4025,14 @@ header.sticky{
   .footer__link.footer__link--mobile-hide {
     display: none;
   }
+
+  .container.container--1260.container--flex-mid {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
 }
+
+
 
 @media screen and (max-width: 479px) {
   
